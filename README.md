@@ -20,7 +20,7 @@ docker run -e AZP_URL=<Azure DevOps instance> -e AZP_TOKEN=<PAT token> -e AZP_AG
 
 ## Ubuntu Build Agents
 
-| Tag              | Version | CodeName      | Based On     | Comments                                       |
-| ---------------- | ------- | ------------- | ------------ | ---------------------------------------------- |
-| latest           | 18.04.4 | Bionic Beaver | ubuntu:18.04 | Always points to the latest Ubuntu LTS release |
-| ubuntu-18.04-lts | 18.04.4 | Bionic Beaver | ubuntu:18.04 |                                                |
+| Tag       | Version | CodeName      | Based On     | Comments                                       |
+| --------- | ------- | ------------- | ------------ | ---------------------------------------------- |
+| latest    | 18.04.4 | Bionic Beaver | ubuntu:18.04 | Always points to the latest Ubuntu LTS release |
+| 18.04-lts | 18.04.4 | Bionic Beaver | ubuntu:18.04 |                                                |
