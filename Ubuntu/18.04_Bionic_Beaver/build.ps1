@@ -1,5 +1,5 @@
 if ((Test-Path "../../.secrets.ps1" -PathType Leaf)) {
-	 . ../../.secrets.ps1
+	 . (../../.secrets.ps1)
 }
 
 $image_name = "ado-buildagent-ubuntu"

@@ -9,6 +9,7 @@ RUN apt-get update \
 && apt-get install -y --no-install-recommends \
         ca-certificates \
 				apt-utils \
+				software-properties-common \
 				curl \
         jq \
         git \
